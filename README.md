@@ -111,10 +111,6 @@ task-manager/
 │   ├── package.json
 │   └── package-lock.json
 │
-└── graphify-out/                       # (gitignored) Knowledge graph outputs
-    ├── GRAPH_REPORT.md                 # Graphify analysis report
-    ├── graph.json                      # Knowledge graph data
-    └── cache/                          # Graphify cache files
 ```
 
 ## 🚀 Quick Start
