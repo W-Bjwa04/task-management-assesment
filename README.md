@@ -22,9 +22,6 @@ A full-stack task management application built with the MERN stack (MongoDB, Exp
 task-manager/
 ├── .gitignore                          # Git ignore rules (env, graphify, node_modules)
 ├── README.md                           # This file
-├── CLAUDE.md                           # Graphify documentation
-├── VALIDATION_IMPLEMENTATION.md        # Detailed validation implementation report
-│
 ├── backend/                            # Express.js REST API
 │   ├── src/
 │   │   ├── config/
