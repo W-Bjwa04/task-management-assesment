@@ -1,0 +1,32 @@
+.not-found {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.not-found__code {
+  font-size: 6rem;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin: 0;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  opacity: 0.3;
+}
+
+.not-found__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-text);
+  margin: 0.5rem 0;
+}
+
+.not-found__text {
+  font-size: 0.875rem;
+  color: var(--color-text-secondary);
+  margin: 0 0 2rem;
+}

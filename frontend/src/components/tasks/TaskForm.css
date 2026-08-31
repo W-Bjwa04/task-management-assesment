@@ -1,0 +1,43 @@
+.task-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.task-form__textarea {
+  resize: vertical;
+  min-height: 80px;
+  font-family: inherit;
+}
+
+.task-form__meta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 0.75rem;
+  margin-top: 0.375rem;
+}
+
+.task-form__char-count {
+  color: var(--color-text-secondary);
+  font-size: 0.75rem;
+}
+
+.task-form__error-text {
+  color: var(--color-danger);
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.task-form__error {
+  font-size: 0.8125rem;
+  color: var(--color-danger);
+  margin: 0;
+}
+
+.task-form__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 0.5rem;
+}

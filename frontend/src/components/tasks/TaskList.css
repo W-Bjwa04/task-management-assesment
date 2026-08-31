@@ -1,0 +1,28 @@
+.task-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+}
+
+.task-list__empty {
+  text-align: center;
+  padding: 4rem 2rem;
+  color: var(--color-text-muted);
+}
+
+.task-list__empty-icon {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.task-list__empty h3 {
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--color-text-secondary);
+  margin: 0 0 0.5rem;
+}
+
+.task-list__empty p {
+  font-size: 0.875rem;
+  margin: 0;
+}
